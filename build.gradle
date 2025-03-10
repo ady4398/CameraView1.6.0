@@ -5,6 +5,9 @@ buildscript {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' } // Add JitPack
+
+        // ✅ Add this repository for `http-builder:0.7.2`
+        maven { url "https://repo.grails.org/grails/core" }
     }
 
     dependencies {
